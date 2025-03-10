@@ -21,3 +21,11 @@ let str3 = str1 + str2
 // console.log("2" === 1)
 // console.log("02" > 1)
 
+let myDate = new Date()
+console.log(myDate.toString())
+console.log(myDate.toDateString())
+console.log(myDate.toISOString())
+console.log(myDate.toLocaleDateString())
+console.log(myDate.toJSON())
+console.log(myDate.toLocaleString())
+console.log(typeof myDate)
